@@ -1,0 +1,1163 @@
+@font-face {
+    font-family: "Film P3";
+    src: local("Film P3"),
+      url("./fonts/FontsFree-Net-FilmP3.ttf");
+  }
+
+  @font-face {
+    font-family: "Montserrat";
+    src: local("Montserrat"),
+      url("./fonts/Montserrat-VariableFont_wght.ttf");
+  }
+
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.section-food {
+    background-color: #FFFDEE;
+}
+
+.container-food {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 120px 15px;
+}
+
+
+@media screen and (max-width: 413px) {
+    .container-food {
+            width: 414px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 16px 15px 0;
+        }
+}
+
+
+
+@media screen and (min-width: 1280px) {
+    .container-food {
+            width: 1280px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 120px 15px 50px;
+        }
+}
+
+@media screen and (max-width: 413px) {
+    .text {
+            display: block;
+        }
+    
+}
+
+@media screen and (min-width: 1280px) {
+    .text {
+            display: flex;
+            gap: 37px;
+        }
+}
+
+@media screen and (max-width: 413px) {
+    .title-text {
+            font-family: 'Times New Roman';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 1.15;
+            color: #B4B4B4;
+
+            margin-bottom: 12px;
+        }
+}
+
+
+@media screen and (min-width: 1280px) {
+    .title-text {
+            font-family: 'Times New Roman';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 1.16;
+            color: #B4B4B4;
+
+            margin-bottom: 4px;
+        }
+}
+
+
+
+@media screen and (max-width: 413px){
+    .logo-text {
+            font-family: 'Film P3';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 1.08;
+
+            letter-spacing: 0.3em;
+
+            margin-bottom: 12px;
+        }
+}
+
+
+@media screen and (min-width: 1280px) {
+    .logo-text {
+            font-family: 'Film P3';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 64px;
+            line-height: 1.08;
+            letter-spacing: 0.3em;
+            color: #494848;
+
+            margin-bottom: 24px;
+        }
+}
+
+
+@media screen and (max-width: 413px) {
+    .subsection-text {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 1.25;
+            letter-spacing: 0.02em;
+            color: #7A7A7A;
+    
+            max-width: 258px;
+            max-height: 76px;
+            
+            margin-bottom: 28px;
+        }
+}
+
+
+@media screen and (min-width: 1280px) {
+    .subsection-text {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 1.25;
+            letter-spacing: 0.02em;
+            color: #7A7A7A;
+    
+            max-width: 518px;
+            max-height: 60px;
+            margin-bottom: 162px;
+        }
+}
+
+@media screen and (max-width: 413px) {
+    .img-food {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+
+
+@media screen and (min-width: 1280px) {
+    .img-food {
+        position: absolute;
+        top: 0;
+        right: 50%;
+        width: 0;
+        height: 0;
+        }
+}
+
+@media screen and (max-width: 413px) {
+    .img1 {
+            width: 244px;
+            height: 322px;
+            margin-bottom: 32px;
+        }
+}
+
+
+@media screen and (max-width: 413px) {
+    .img2 {
+        width: 200px;
+        height: 278px;
+    }
+}
+
+@media screen and (max-width: 413px) {
+    .img-food2 {
+        display: flex;
+        gap: 20px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .img-food2 {
+            display: flex;
+            gap: 32px;    
+        }
+}
+
+@media screen and (max-width: 413px) {
+    .text2 {
+        display: flex;
+        flex-direction: column;
+        gap: 102px;
+}
+}
+
+@media screen and (min-width: 1280px) {
+    .text2 {
+            margin-top: 185px;
+        }
+}
+
+@media screen and (max-width: 413px) {
+    .text-food {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 1.25;
+            letter-spacing: 0.02em;
+            color: #C79002;
+    
+            max-width: 163px;
+            max-height: 120px;
+
+            margin-top: 102px;
+        }
+}
+
+@media screen and (min-width: 1280px) {
+    .text-food {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 1.25;
+            letter-spacing: 0.02em;
+            color: #C79002;
+    
+            max-width: 312px;
+            max-height: 122px;
+        }
+}
+
+@media screen and (max-width: 413px) {
+    .img-resto {
+        display: flex;
+        gap: 20px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .img-resto {
+            display: flex;
+            gap: 40px;
+    
+            margin-top: 118px;
+            margin-left: 102px;
+            margin-bottom: 36px;
+        }
+}
+
+@media screen and (max-width: 413px) {
+    .img3,
+    .img4 {
+        width: 245px;
+        height: 245px;
+    }
+}
+
+.btn {
+    display: flex;
+    justify-content: flex-end;
+    gap: 32px;
+    
+}
+
+.button {
+    background-color: #FFFDEE;
+    border: none;
+}
+
+
+@media screen and (max-width: 413px) {
+    .resto-section {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./pictures/restoran.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+
+            width: 413px;
+        }
+}
+
+@media screen and (min-width: 1280px) {
+    .resto-section {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./pictures/restoran.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+
+
+        }
+}
+
+@media screen and (max-width: 413px) {
+    .resto-container {
+            margin: 0 auto;
+            width: 100%;
+            padding: 24px 40px 40px;
+        }
+}
+
+@media screen and (min-width: 1280px) {
+    .resto-container {
+            margin: 0 auto;
+            min-width: 1280px;
+            padding: 48px 15px;
+        }
+}
+
+
+
+@media screen and (max-width: 413px) {
+.resto-img {
+    
+    display: flex;
+    flex-direction: column-reverse;  
+    gap: 80px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .resto-img {
+            display: flex;
+            justify-content: center;
+    
+        }
+}
+
+@media screen and (max-width: 413px) {
+    .resto-text,
+    .resto-menu {
+        
+        width: 414px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .resto-text,
+    .resto-menu {
+        display: grid;
+    }
+}
+
+
+@media screen and (min-width: 1280px) {
+    .resto-text {
+            justify-content: space-evenly;
+        }
+}
+
+@media screen and (max-width:413px) {
+    .resto-title {
+            font-family: 'Film P3';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 1.08;
+
+            letter-spacing: 0.3em;
+        
+            color: #FFFFFF;
+    
+            margin-bottom: 12px;
+            display: grid;
+            justify-content: center;
+        }
+}
+
+@media screen and (min-width: 1280px) {
+    .resto-title {
+            font-family: 'Film P3';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 64px;
+            line-height: 1.08;
+    
+            letter-spacing: 0.3em;
+    
+            color: #FFFFFF;
+    
+            margin-bottom: 16px;
+            display: grid;
+            justify-content: start;
+        }
+}
+
+@media screen and (max-width:413px) {
+    .resto-name {
+    
+        /* заголовок */
+
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+    
+        color: #FFFFFF;
+
+        margin-bottom: 20px;
+        margin-right: 15px;
+
+        display: grid;
+        justify-content: center;
+    
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .resto-name {
+    
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29px;
+            letter-spacing: 0.02em;
+    
+            color: #FFFFFF;
+    
+            margin-bottom: 8px;
+            margin-right: 15px;
+    
+            display: grid;
+            justify-content: start;
+    
+        }
+}
+
+@media screen and (max-width:413px) {
+    .resto-subcection {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 1.25;
+        letter-spacing: 0.02em;
+
+        color: #BABABA;
+
+        max-width: 259px;
+        max-height: 62px;
+
+        margin-bottom: 48px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .resto-subcection {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 20px;
+            letter-spacing: 0.02em;
+    
+            color: #BABABA;
+    
+            max-width: 610px;
+            max-height: 44px;
+    
+            margin-bottom: 40px;
+        }
+}
+
+
+
+@media screen and (max-width:413px) {
+.resto-block {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .resto-block {
+            display: flex;
+    
+        }
+}
+
+
+
+@media screen and (max-width:413px) {
+    .resto-block .resto-item+.resto-item {
+            margin-left: 20px;
+        }
+}
+
+@media screen and (min-width: 1280px) {
+    .resto-block .resto-item+.resto-item {
+            margin-left: 86px;
+        }
+}
+
+@media screen and (max-width:413px) {
+    .resto-btn {
+            margin: 0;
+            display: flex;
+            align-items: end;
+            justify-content: center;
+        }
+}
+
+@media screen and (min-width:1280px) {
+    .resto-btn {
+            margin: 0 32px 0 0;
+            display: flex;
+            align-items: end;
+        }
+}
+
+@media screen and (max-width:413px) {
+    .resto-list {
+            display: grid;
+            flex-direction: column;
+            gap: 16px;
+            justify-content: flex-end;
+        }
+}
+
+@media screen and (min-width: 1280px) {
+    .resto-list {
+            display: grid;
+            flex-direction: column;
+            gap: 16px;
+            justify-content: flex-end;
+        }
+}
+
+@media screen and (max-width:413px) {
+.resto-button {
+        background: rgba(0, 0, 0, 0.4);
+        border: 2px solid #FFFFFF;
+        border-radius: 25px;
+
+        width: 236px;
+        height: 48px;
+
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: 0.02em;
+        color: #F3C653;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .resto-button {
+            background: rgba(0, 0, 0, 0.4);
+            border: 2px solid #FFFFFF;
+            border-radius: 25px;
+    
+            width: 236px;
+            height: 48px;
+    
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 1.25;
+            letter-spacing: 0.02em;
+            color: #F3C653;
+        }
+}
+
+@media screen and (max-width:413px) {
+    .img5,
+    .img6,
+    .img7 {
+        width: 274px;
+    }
+}
+
+@media screen and (max-width: 413px) {
+    .spa-section {
+            background-color: #FFFDEE;
+    
+        }
+}
+
+
+@media screen and (min-width: 1280px){
+    .spa-section {
+            background-color: #FFFDEE;
+    
+        }
+}
+
+
+@media screen and (max-width:413px) {
+    .spa-container {
+            width: 414px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 16px 15px 20px;
+        }
+}
+
+@media screen and (min-width: 1280px) {
+    .spa-container {
+            width: 1280px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 120px 15px 50px;
+    
+            position: relative;
+        }
+}
+
+@media screen and (max-width:413px) {
+    .spa-text {
+            display: block;
+        }
+}
+
+@media screen and (min-width: 1280px) {
+    .spa-text {
+            display: grid;
+            justify-content: flex-end;
+        }
+}
+
+@media screen and (max-width: 413px) {
+    .spa-list{
+        display: grid;
+        justify-content: flex-end;
+    }
+}
+
+@media screen and (max-width:413px) {
+    .spa-title {
+            display: grid;
+            justify-content: flex-end;
+    
+            font-family: 'Times New Roman';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 1.15;
+            color: #B4B4B4;
+    
+            margin-bottom: 12px;
+        }
+}
+
+@media screen and (min-width: 1280px) {
+    .spa-title {
+            display: grid;
+            justify-content: flex-end;
+    
+            font-family: 'Times New Roman';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 1.16;
+            color: #B4B4B4;
+    
+            margin-bottom: 4px;
+}
+}
+
+@media screen and (max-width:413px) {
+    .spa-logo {
+            display: grid;
+            justify-content: flex-end;
+            font-family: 'Film P3';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 1.08;
+            letter-spacing: 0.3em;
+            color: #494848;
+    
+            margin-bottom: 12px;
+        }
+}
+
+@media screen and (min-width: 1280px) {
+    .spa-logo {
+            display: grid;
+            justify-content: flex-end;
+            font-family: 'Film P3';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 64px;
+            line-height: 1.08;
+            letter-spacing: 0.3em;
+            color: #494848;
+    
+            margin-bottom: 24px;
+        }
+}
+
+@media screen and (max-width:413px) {
+.spa-subsection {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 1.25;
+        letter-spacing: 0.02em;
+        color: #7A7A7A;
+
+        max-width: 242px;
+        max-height: 76px;
+        
+        margin-bottom: 28px;
+
+        display: grid;
+        justify-content: flex-end;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .spa-subsection {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 1.25;
+            letter-spacing: 0.02em;
+            color: #7A7A7A;
+    
+            max-width: 488px;
+            max-height: 88px;
+            margin-bottom: 162px;
+        }
+}
+
+
+@media screen and (max-width:413px) {
+    .spa-img1 {
+            display: flex;
+            justify-content: flex-start;
+        }
+}
+
+@media screen and (min-width: 1280px) {
+    .spa-img1 {
+            position: absolute;
+            top: 0;
+            right: 80%;
+            width: 0;
+            height: 0;
+        }
+}
+
+
+@media screen and (max-width:413px) {
+    .img1 {
+        width: 244px;
+        height: 322px;
+        margin: 0 0 32px;
+    }
+}
+
+@media screen and  (max-width: 413px){
+    .img3 {
+        width: 200px;
+        height: 278px;
+        margin: 0 0 32px;
+    } 
+}
+
+@media screen and (max-width: 413px) {
+    .spa-menu {
+            display: flex;
+            gap: 21px;
+        }
+}
+
+@media screen and (min-width: 1280px){
+    .spa-menu {
+            display: flex;
+            justify-content: end;
+            gap: 45px;
+        }
+}
+
+@media screen and (max-width:413px) {
+.spa-text2 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 1.25;
+        letter-spacing: 0.02em;
+        color: #C79002;
+
+        max-width: 163px;
+        max-height: 120px;
+
+        margin-top: 102px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .spa-text2 {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 1.25;
+            letter-spacing: 0.02em;
+            color: #C79002;
+    
+            max-width: 311px;
+            max-height: 122px;
+    
+            margin-top: 170px;
+        }
+}
+
+@media screen and (max-width:413px) {
+    .spa-photo {
+            display: flex;
+            flex-direction: row-reverse;
+            gap: 20px;
+        }
+}
+
+@media screen and (min-width: 1280px){
+    .spa-photo {
+            display: flex;
+            gap: 40px;
+    
+        }
+}
+
+@media screen and (max-width:413px) {
+    .spa-btn {
+            display: flex;
+            justify-content: flex-start;
+            margin-top: 20px;
+            margin-bottom: 0;
+        }
+}
+
+@media screen and (min-width: 1280px){
+    .spa-btn {
+            display: flex;
+            justify-content: flex-start;
+            margin-top: 40px;
+            margin-bottom: 0;
+        }
+}
+
+
+@media screen and (max-width:413px) {
+.hotel-section {
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./pictures/hotel-1979406_1920.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    .hotel-section {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./pictures/hotel-1979406_1920.jpeg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+}
+
+
+@media screen and (max-width:413px) {
+.hotel-container {
+        margin: 0 auto;
+        width: 414px;
+        padding: 24px 32px 40px;
+    }
+}
+@media screen and (min-width: 1280px) {
+    .hotel-container {
+            margin: 0 auto;
+            width: 1280px;
+            padding: 48px 15px;
+        }
+}
+
+
+@media screen and (max-width:413px) {
+.hotel-img {
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    .hotel-img {
+            display: flex;
+            justify-content: center;    
+        }
+}
+
+@media screen and (max-width:413) {
+    .hotel-text,
+    .hotel-menu {
+            width: 414px;
+        }
+}
+
+@media screen and (min-width: 1280px){
+    .hotel-text,
+    .hotel-menu {
+            display: grid;
+        }
+}
+
+
+@media screen and (max-width:413) {
+
+}
+
+@media screen and (min-width: 1280px) {
+    .hotel-text {
+            justify-content: space-evenly;
+        }
+}
+
+@media screen and (max-width:413px) {
+    .hotel-title {
+            font-family: 'Film P3';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 1.08;
+    
+            letter-spacing: 0.3em;
+    
+            color: #FFFFFF;
+    
+            margin-bottom: 12px;
+            display: grid;
+            justify-content: center;
+        }
+}
+
+@media screen and (min-width: 1280px) {
+    .hotel-title {
+            font-family: 'Film P3';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 64px;
+            line-height: 1.08;
+    
+            letter-spacing: 0.3em;
+    
+            color: #FFFFFF;
+    
+            margin-bottom: 16px;
+            display: grid;
+            justify-content: end;
+        }
+}
+
+
+@media screen and (max-width:413px) {
+    .hotel-name {
+    
+            /* заголовок */
+    
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 1.2;
+            letter-spacing: 0.02em;
+    
+            color: #FFFFFF;
+    
+            margin-bottom: 20px;
+            margin-left: 25px;
+    
+            display: grid;
+            justify-content: center;
+    
+        }
+}
+
+@media screen and (min-width: 1280px) {
+    .hotel-name {
+    
+            /* заголовок */
+    
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 1.21;
+            letter-spacing: 0.02em;
+    
+            color: #FFFFFF;
+    
+            margin-bottom: 8px;
+            margin-right: 15px;
+    
+            display: grid;
+            justify-content: end;
+    
+        }
+}
+
+
+
+@media screen and (max-width:413px) {
+    .hotel-subcection {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 1.25;
+            letter-spacing: 0.02em;
+    
+            color: #BABABA;
+    
+            max-width: 243px;
+            max-height: 62px;
+    
+            margin-bottom: 48px;
+        }
+}
+
+@media screen and (min-width: 1280px) {
+    .hotel-subcection {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 1.25;
+            letter-spacing: 0.02em;
+    
+            color: #BABABA;
+    
+            max-width: 610px;
+            max-height: 44px;
+    
+            margin-bottom: 40px;
+        }
+}
+
+
+@media screen and (max-width:413px) {
+    .hotel-block {
+            display: flex;
+    
+        }
+}
+
+@media screen and (min-width: 1280px) {
+    .hotel-block {
+            display: flex;    
+        }
+}
+
+
+@media screen and (max-width:413px) {
+    .hotel-block .hotel-item+.hotel-item {
+            margin-left: 20px;
+        }
+}
+
+@media screen and (min-width: 1280px) {
+    .hotel-block .hotel-item+.hotel-item {
+            margin-left: 86px;
+        }
+}
+
+@media screen and (max-width:413px) {
+    .hotel-btn {
+            margin: 0 0 0 32px;
+            display: flex;
+            align-items: end;
+        }
+}
+
+@media screen and (min-width: 1280px){
+    .hotel-btn {
+            margin: 0 0 0 32px;
+            display: flex;
+            align-items: end;
+        }
+}
+
+@media screen and (max-width:413px) {
+    .hotel-list {
+            display: grid;
+            flex-direction: column;
+            gap: 16px;
+            justify-content: flex-end;
+        }
+}
+
+@media screen and (min-width: 1280px) {
+    .hotel-list {
+            display: grid;
+            flex-direction: column;
+            gap: 16px;
+            justify-content: flex-end;
+        }
+}
+
+
+@media screen and (max-width:413px) {
+    .resto-button {
+            background: rgba(0, 0, 0, 0.4);
+            border: 2px solid #FFFFFF;
+            border-radius: 25px;
+    
+            width: 236px;
+            height: 48px;
+    
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 1.25;
+            letter-spacing: 0.02em;
+            color: #F3C653;
+        }
+}
+
+@media screen and (min-width: 1280px) {
+    .resto-button {
+            background: rgba(0, 0, 0, 0.4);
+            border: 2px solid #FFFFFF;
+            border-radius: 25px;
+    
+            width: 236px;
+            height: 48px;
+    
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 1.25;
+            letter-spacing: 0.02em;
+            color: #F3C653;
+        }
+}
